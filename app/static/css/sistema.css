@@ -1,0 +1,359 @@
+body {
+    background: linear-gradient(to top right, #355C7D, #c06c84);
+    display: flex;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+body h3 {
+    margin: 0;
+}
+
+body h2 {
+    margin: 0;
+}
+
+body h4 {
+    margin: 0;
+}
+
+/*Estilização do Cadastro*/
+
+.cadastro {
+    width: 49vw;
+    height: 98vh;
+    margin-right: 0.5vw;
+    overflow-y: hidden;
+}
+
+/*Butões*/
+
+.tab-buttons {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    gap: 2px;
+}
+
+.tab-btn {
+    background-color: #414141;
+    color: #ffffff;
+    font-size: 1.5rem;
+    width: 50%;
+    border: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.tab-btn:hover {
+    background-color: #6c6c6c;
+}
+
+.tab-btn.active {
+    background-color: white;
+    color: #000000;
+}
+
+/*Conteúdo*/
+
+.DelInfo {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tab-contents {
+    display: flex;
+    width: 100%;
+    height: 93vh;
+    border-radius: 0 0 5px 5px;
+    background-color: white;
+}
+
+.tab-cnt {
+    display: none;
+    user-select: none;
+    width: 100%;
+}
+
+.tab-cnt.show {
+    display: block;
+}
+
+.list {
+    background-color: #c3c3c3;
+    height: 65vh;
+    margin: 10px;
+    overflow-y: scroll;
+}
+
+/*Estilização dos controles de cadastro*/
+
+.control.Tra {
+    height: 25vh;
+    margin: 10px;
+}
+
+.control.Pess {
+    height: 21.5vh;
+    margin: 10px;
+}
+
+.control h3 {
+    margin-top: 10px;
+    margin-bottom: 1vh;
+}
+
+.InputsPess {
+    display: flex;
+    height: 17vh;
+}
+
+.InputsTra {
+    display: flex;
+    height: 20vh;
+}
+
+.InputsTraPart {
+    height: 20vh;
+    width: 50%;
+}
+
+.Input {
+    height: 3.5vh;
+    width: 22vw;
+    font-size: 0.8rem;
+}
+
+.InputDesc {
+    height: 11vh;
+    width: 22vw;
+    font-size: 0.8rem;
+}
+
+.Select {
+    height: 3.5vh;
+    width: 22vw;
+    font-size: 0.8rem;
+}
+
+.Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 5vh;
+}
+
+.Buttons button {
+    height: 4.5vh;
+    width: 8vw;
+    font-size: 1.5rem;
+}
+
+/*Estilização dos items das listas de cadastro*/
+
+.Item.Pes {
+    display: flex;
+    margin: 1%;
+    width: 98%;
+    height: 15vh;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.Item.Tra {
+    display: flex;
+    margin: 1%;
+    width: 98%;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.ItemImg {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    width: 15vh;
+}
+
+.ItemImg img {
+    width: 100%;
+}
+
+.ItemInfo.Pes {
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(235, 250, 255);
+    overflow: hidden;
+    font-size: 1.3rem;
+}
+
+.ItemInfo.Tra {
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(235, 250, 255);
+    overflow: hidden;
+    font-size: 1.3rem;
+}
+
+.ItemId{
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.ItemNome {
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.ItemIdade {
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.ItemDesc {
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.ItemValor {
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.ItemTipo {
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.ItemPess {
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/*Estilização da área de listagem dos totais*/
+
+.area-listagem {
+    width: 49vw;
+    height: 98vh;
+    margin-left: 0.5vw;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.listagem {
+    background-color: #c3c3c3;
+    height: 85vh;
+    overflow-y: scroll;
+    margin: 10px;
+}
+
+.totais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin: 10px;
+}
+
+.tot-part {
+    width: 36%;
+    margin: 0.3%;
+}
+
+/*Estilização dos items das listas de cadastro*/
+
+.Item.Tot {
+    display: flex;
+    margin: 1%;
+    width: 98%;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.ItemInfo.Tot {
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(235, 250, 255);
+    overflow: hidden;
+    font-size: 1.3rem;
+}
+
+.ItemRec {
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.ItemDes {
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.ItemSal {
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/*Estilização do Popup*/
+
+.DelPopup {
+    width: 0%;
+    height: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    visibility: hidden;
+}
+
+.DelPopup.show {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(41, 41, 41, 0.5);
+    visibility: visible;
+}
+
+.popMenu {
+    display: block;
+    border-radius: 7px;
+    background-color: #ebebeb;
+    width: 35vw;
+    height: 20vh;
+}
+
+.popMenu h2 {
+    width: 30vw;
+    margin: 2.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    text-align: center;
+}
+
+.popButts {
+    display: flex;
+    width: 100%;
+    height: 43%;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.popButts button {
+    height: 4.5vh;
+    width: 8vw;
+    font-size: 1.5rem;
+}
