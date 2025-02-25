@@ -1,5 +1,4 @@
 # Sis-De-Ges-De-Despesas 
--------------------------------
 
 ## Descrição do projeto
 
