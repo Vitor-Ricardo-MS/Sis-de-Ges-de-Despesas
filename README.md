@@ -31,13 +31,13 @@ Detalhes da implementação:
 ## Como rodar a aplicação
 
 No terminal, clone o projeto: 
-
+```
  $ git clone https://github.com/Vitor-Ricardo-MS/Sis-de-Ges-de-Despesas
-
+```
 Dentro do arquivo do sistema, rode o arquivo routes.py:
-
+```
  $ python3 routes.py
- 
+```
 Após isso, basta acessar o site através de "localhost:8080" no browser.
 
 ## JSON
