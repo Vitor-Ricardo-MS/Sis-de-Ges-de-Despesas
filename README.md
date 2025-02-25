@@ -24,10 +24,10 @@ Esse programa foi feito com uma arquitetura monolítica, baseada em um arquivo d
 
 Detalhes da implementação:
 
-> Implementação em [Python](https://www.python.org/downloads/);
-> Uso do framework [Bottle](https://bottlepy.org/docs/dev/);
-> Para dinamização da página, foi feito o uso da biblioteca [Socket.IO](https://socket.io/pt-br/);
-> Banco de dados feito com arquivos JSON.
+- Implementação em [Python](https://www.python.org/downloads/);
+- Uso do framework [Bottle](https://bottlepy.org/docs/dev/);
+- Para dinamização da página, foi feito o uso da biblioteca [Socket.IO](https://socket.io/pt-br/);
+- Banco de dados feito com arquivos JSON.
 
 ## Como rodar a aplicação
 
