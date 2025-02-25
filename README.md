@@ -23,9 +23,9 @@ Esse programa foi feito com uma arquitetura monolítica, baseada em um arquivo d
 
 Detalhes da implementação:
 
-- Implementação em [Python](https://www.python.org/downloads/);
-- Uso do framework [Bottle](https://bottlepy.org/docs/dev/);
-- Para dinamização da página, foi feito o uso da biblioteca [Socket.IO](https://socket.io/pt-br/);
+- Implementação em [Python 3.10.12](https://www.python.org/downloads/);
+- Uso do framework [Bottle 0.13.2](https://bottlepy.org/docs/0.13/);
+- Para dinamização da página, foi feito o uso da biblioteca [Python-Socketio 5.12.1](https://python-socketio.readthedocs.io/en/stable/client.html#installation);
 - Banco de dados feito com arquivos JSON.
 
 ## Dependências
@@ -33,10 +33,10 @@ Detalhes da implementação:
 Esse programa tem como dependência o seguinte:
 
 - [Python](https://www.python.org/downloads/);
-- [Bottle](https://bottlepy.org/docs/dev/);
-- [Socket.IO](https://socket.io/pt-br/);
+- [Bottle](https://bottlepy.org/docs/0.13/);
+- [Python-Socketio](https://python-socketio.readthedocs.io/en/stable/client.html#installation);
 
-Certifique-se que elas estão instaladas na sua máquina. 
+Certifique-se de que elas estão instaladas na sua máquina. 
 
 ## Como rodar a aplicação
 
