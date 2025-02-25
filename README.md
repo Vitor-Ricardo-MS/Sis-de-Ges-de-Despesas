@@ -21,6 +21,8 @@ Uma página, dividida entre uma área de cadastro e listagem de pessoas e transa
 
 Esse programa foi feito com uma arquitetura monolítica, baseada em um arquivo de rotas que inicia o site e uma pasta que contém o conteúdo apresentado no mesmo.
 
+Uma imagem do diagrama de classes do programa pode ser encontrada na pasta do sistema.
+
 Detalhes da implementação:
 
 - Implementação em [Python 3.10.12](https://www.python.org/downloads/);

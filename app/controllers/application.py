@@ -10,7 +10,6 @@ class Application():
     def __init__(self):
         
         #A dict serve para fazer a escolha entre várias páginas
-        #Acabei utilizando apenas uma
         self.pages = {
             'sistema' : self.sistema
         }

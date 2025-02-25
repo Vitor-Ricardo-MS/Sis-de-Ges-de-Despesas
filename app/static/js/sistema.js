@@ -221,6 +221,7 @@ function UpdateTra( data ){
 }
 
 function UpdateTots(data){
+    //resetar a lista de totais
     ListaTots.innerHTML = "";
     
     var RecTot = 0;

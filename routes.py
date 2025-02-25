@@ -69,7 +69,8 @@ def UpdTra(sid):
     sio.emit('UpdTra', tras)
 
 #Quando o site tenta atualizar os totais, o socket chama essa
-#função, que envia a lista de pessoas e as transações delas
+#função, que envia uma lista de pessoas e as transações delas
+#como uma lista de objetos no modelo total
 @sio.event
 def UpdTots(sid):
     tots = ctl.getTots()

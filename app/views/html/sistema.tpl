@@ -4,8 +4,8 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Sistema</title>
-   <script src="/static/js/websocket/socket.io.min.js?V112412"></script>
-   <link rel="stylesheet" type="text/css" href="/static/css/sistema.css?V12312312327">
+   <script src="/static/js/websocket/socket.io.min.js?V2"></script>
+   <link rel="stylesheet" type="text/css" href="/static/css/sistema.css?V2">
 
 </head>
 <body>
@@ -99,5 +99,5 @@
          </div>
       </div>
 
-   <script src="/static/js/sistema.js?V123210127589"></script>
+   <script src="/static/js/sistema.js?V2"></script>
 </body>
