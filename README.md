@@ -40,10 +40,6 @@ Dentro do arquivo do sistema, rode o arquivo routes.py:
 ```
 Após isso, basta acessar o site através de "localhost:8080" no browser.
 
-## JSON
-
-### Pessoas:
-
 
 
 
